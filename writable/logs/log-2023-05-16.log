@@ -1,0 +1,46 @@
+CRITICAL - 2023-05-16 00:13:30 --> Undefined variable $tegangan
+in APPPATH\Views\dataplts\detail.php on line 27.
+ 1 APPPATH\Views\dataplts\detail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tegangan', 'APPPATH\\Views\\dataplts\\detail.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dataplts\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataplts/detail', [], true)
+ 5 APPPATH\Controllers\Plts.php(45): view('dataplts/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-16 00:16:59 --> Call to undefined method App\Models\GrafikModel::getData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Plts.php(42): CodeIgniter\Model->__call('getData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->detailarus('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-16 00:26:30 --> Too few arguments to function App\Controllers\Plts::detailarus(), 0 passed in C:\xampp\htdocs\monitoring\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Plts.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->detailarus()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-16 00:28:30 --> Too few arguments to function App\Controllers\Plts::detailbaterai(), 0 passed in C:\xampp\htdocs\monitoring\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Plts.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->detailbaterai()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-16 00:29:57 --> Undefined variable $tegangan
+in APPPATH\Views\dataplts\detailoutput.php on line 27.
+ 1 APPPATH\Views\dataplts\detailoutput.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tegangan', 'APPPATH\\Views\\dataplts\\detailoutput.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dataplts\\detailoutput.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataplts/detailoutput', [], true)
+ 5 APPPATH\Controllers\Plts.php(85): view('dataplts/detailoutput', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->detailoutput()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

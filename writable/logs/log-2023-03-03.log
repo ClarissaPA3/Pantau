@@ -1,0 +1,465 @@
+ERROR - 2023-03-03 04:05:39 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#7 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-03-03 04:05:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pemain`', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-03 11:20:04 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#7 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-03-03 11:20:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pemain`', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:33:17 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:33:24 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:33:26 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:37:37 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:37:40 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:38:19 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:38:40 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:47:14 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:47:49 --> Undefined property: Config\Kint::$richSort
+in SYSTEMPATH\CodeIgniter.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Kint::$richSort', 'SYSTEMPATH\\CodeIgniter.php', 290)
+ 2 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 3 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:49:14 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:49:20 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:49:25 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:49:26 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:49:28 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:49:28 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:49:30 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:50:56 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:53:14 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:53:26 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 11:54:43 --> Class "Config\AbstractRenderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 12:02:57 --> Call to a member function getStatusCode() on null
+in ROOTPATH\spark on line 100.
+
+CRITICAL - 2023-03-03 12:10:41 --> Creation of dynamic property Config\Honeypot::$containerId is deprecated
+in SYSTEMPATH\Honeypot\Honeypot.php on line 49.
+ 1 SYSTEMPATH\Honeypot\Honeypot.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property Config\\Honeypot::$containerId is deprecated', 'SYSTEMPATH\\Honeypot\\Honeypot.php', 49)
+ 2 SYSTEMPATH\Config\Services.php(320): CodeIgniter\Honeypot\Honeypot->__construct(Object(Config\Honeypot))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot(Object(Config\Honeypot), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('honeypot', [...])
+ 5 SYSTEMPATH\Config\Services.php(315): CodeIgniter\Config\BaseService::getSharedInstance('honeypot', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot()
+ 7 SYSTEMPATH\Filters\Honeypot.php(39): CodeIgniter\Config\BaseService::__callStatic('honeypot', [])
+ 8 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\Honeypot->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 12:10:45 --> Creation of dynamic property Config\Honeypot::$containerId is deprecated
+in SYSTEMPATH\Honeypot\Honeypot.php on line 49.
+ 1 SYSTEMPATH\Honeypot\Honeypot.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property Config\\Honeypot::$containerId is deprecated', 'SYSTEMPATH\\Honeypot\\Honeypot.php', 49)
+ 2 SYSTEMPATH\Config\Services.php(320): CodeIgniter\Honeypot\Honeypot->__construct(Object(Config\Honeypot))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot(Object(Config\Honeypot), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('honeypot', [...])
+ 5 SYSTEMPATH\Config\Services.php(315): CodeIgniter\Config\BaseService::getSharedInstance('honeypot', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot()
+ 7 SYSTEMPATH\Filters\Honeypot.php(39): CodeIgniter\Config\BaseService::__callStatic('honeypot', [])
+ 8 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\Honeypot->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 12:13:17 --> Creation of dynamic property Config\Honeypot::$containerId is deprecated
+in SYSTEMPATH\Honeypot\Honeypot.php on line 49.
+ 1 SYSTEMPATH\Honeypot\Honeypot.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property Config\\Honeypot::$containerId is deprecated', 'SYSTEMPATH\\Honeypot\\Honeypot.php', 49)
+ 2 SYSTEMPATH\Config\Services.php(320): CodeIgniter\Honeypot\Honeypot->__construct(Object(Config\Honeypot))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot(Object(Config\Honeypot), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('honeypot', [...])
+ 5 SYSTEMPATH\Config\Services.php(315): CodeIgniter\Config\BaseService::getSharedInstance('honeypot', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot()
+ 7 SYSTEMPATH\Filters\Honeypot.php(39): CodeIgniter\Config\BaseService::__callStatic('honeypot', [])
+ 8 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\Honeypot->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 12:28:15 --> Creation of dynamic property Config\Honeypot::$containerId is deprecated
+in SYSTEMPATH\Honeypot\Honeypot.php on line 49.
+ 1 SYSTEMPATH\Honeypot\Honeypot.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property Config\\Honeypot::$containerId is deprecated', 'SYSTEMPATH\\Honeypot\\Honeypot.php', 49)
+ 2 SYSTEMPATH\Config\Services.php(320): CodeIgniter\Honeypot\Honeypot->__construct(Object(Config\Honeypot))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot(Object(Config\Honeypot), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('honeypot', [...])
+ 5 SYSTEMPATH\Config\Services.php(315): CodeIgniter\Config\BaseService::getSharedInstance('honeypot', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot()
+ 7 SYSTEMPATH\Filters\Honeypot.php(39): CodeIgniter\Config\BaseService::__callStatic('honeypot', [])
+ 8 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\Honeypot->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 12:28:45 --> Creation of dynamic property Config\Honeypot::$containerId is deprecated
+in SYSTEMPATH\Honeypot\Honeypot.php on line 49.
+ 1 SYSTEMPATH\Honeypot\Honeypot.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property Config\\Honeypot::$containerId is deprecated', 'SYSTEMPATH\\Honeypot\\Honeypot.php', 49)
+ 2 SYSTEMPATH\Config\Services.php(320): CodeIgniter\Honeypot\Honeypot->__construct(Object(Config\Honeypot))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot(Object(Config\Honeypot), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('honeypot', [...])
+ 5 SYSTEMPATH\Config\Services.php(315): CodeIgniter\Config\BaseService::getSharedInstance('honeypot', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot()
+ 7 SYSTEMPATH\Filters\Honeypot.php(39): CodeIgniter\Config\BaseService::__callStatic('honeypot', [])
+ 8 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\Honeypot->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 12:34:51 --> Creation of dynamic property Config\Honeypot::$containerId is deprecated
+in SYSTEMPATH\Honeypot\Honeypot.php on line 49.
+ 1 SYSTEMPATH\Honeypot\Honeypot.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property Config\\Honeypot::$containerId is deprecated', 'SYSTEMPATH\\Honeypot\\Honeypot.php', 49)
+ 2 SYSTEMPATH\Config\Services.php(320): CodeIgniter\Honeypot\Honeypot->__construct(Object(Config\Honeypot))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot(Object(Config\Honeypot), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('honeypot', [...])
+ 5 SYSTEMPATH\Config\Services.php(315): CodeIgniter\Config\BaseService::getSharedInstance('honeypot', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot()
+ 7 SYSTEMPATH\Filters\Honeypot.php(39): CodeIgniter\Config\BaseService::__callStatic('honeypot', [])
+ 8 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\Honeypot->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 12:39:32 --> Creation of dynamic property Config\Honeypot::$containerId is deprecated
+in SYSTEMPATH\Honeypot\Honeypot.php on line 49.
+ 1 SYSTEMPATH\Honeypot\Honeypot.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property Config\\Honeypot::$containerId is deprecated', 'SYSTEMPATH\\Honeypot\\Honeypot.php', 49)
+ 2 SYSTEMPATH\Config\Services.php(320): CodeIgniter\Honeypot\Honeypot->__construct(Object(Config\Honeypot))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot(Object(Config\Honeypot), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('honeypot', [...])
+ 5 SYSTEMPATH\Config\Services.php(315): CodeIgniter\Config\BaseService::getSharedInstance('honeypot', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot()
+ 7 SYSTEMPATH\Filters\Honeypot.php(39): CodeIgniter\Config\BaseService::__callStatic('honeypot', [])
+ 8 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\Honeypot->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 12:40:20 --> Creation of dynamic property Config\Honeypot::$containerId is deprecated
+in SYSTEMPATH\Honeypot\Honeypot.php on line 49.
+ 1 SYSTEMPATH\Honeypot\Honeypot.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property Config\\Honeypot::$containerId is deprecated', 'SYSTEMPATH\\Honeypot\\Honeypot.php', 49)
+ 2 SYSTEMPATH\Config\Services.php(320): CodeIgniter\Honeypot\Honeypot->__construct(Object(Config\Honeypot))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot(Object(Config\Honeypot), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('honeypot', [...])
+ 5 SYSTEMPATH\Config\Services.php(315): CodeIgniter\Config\BaseService::getSharedInstance('honeypot', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot()
+ 7 SYSTEMPATH\Filters\Honeypot.php(39): CodeIgniter\Config\BaseService::__callStatic('honeypot', [])
+ 8 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\Honeypot->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 12:43:28 --> Creation of dynamic property Config\Honeypot::$containerId is deprecated
+in SYSTEMPATH\Honeypot\Honeypot.php on line 49.
+ 1 SYSTEMPATH\Honeypot\Honeypot.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property Config\\Honeypot::$containerId is deprecated', 'SYSTEMPATH\\Honeypot\\Honeypot.php', 49)
+ 2 SYSTEMPATH\Config\Services.php(320): CodeIgniter\Honeypot\Honeypot->__construct(Object(Config\Honeypot))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot(Object(Config\Honeypot), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('honeypot', [...])
+ 5 SYSTEMPATH\Config\Services.php(315): CodeIgniter\Config\BaseService::getSharedInstance('honeypot', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot()
+ 7 SYSTEMPATH\Filters\Honeypot.php(39): CodeIgniter\Config\BaseService::__callStatic('honeypot', [])
+ 8 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\Honeypot->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 12:49:20 --> Creation of dynamic property Config\Honeypot::$containerId is deprecated
+in SYSTEMPATH\Honeypot\Honeypot.php on line 50.
+ 1 SYSTEMPATH\Honeypot\Honeypot.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property Config\\Honeypot::$containerId is deprecated', 'SYSTEMPATH\\Honeypot\\Honeypot.php', 50)
+ 2 SYSTEMPATH\Config\Services.php(320): CodeIgniter\Honeypot\Honeypot->__construct(Object(Config\Honeypot))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot(Object(Config\Honeypot), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('honeypot', [...])
+ 5 SYSTEMPATH\Config\Services.php(315): CodeIgniter\Config\BaseService::getSharedInstance('honeypot', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::honeypot()
+ 7 SYSTEMPATH\Filters\Honeypot.php(39): CodeIgniter\Config\BaseService::__callStatic('honeypot', [])
+ 8 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\Honeypot->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 22:05:07 --> Invalid file: "auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\Auth.php(9): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 22:11:24 --> Undefined variable $title
+in APPPATH\Views\layout\template_admin.php on line 7.
+ 1 APPPATH\Views\layout\template_admin.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template_admin.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template_admin', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\Auth.php(9): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 22:12:18 --> Undefined variable $title
+in APPPATH\Views\layout\template_admin.php on line 7.
+ 1 APPPATH\Views\layout\template_admin.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template_admin.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template_admin', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\Auth.php(9): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 22:30:30 --> Invalid file: "layout/auth_footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/auth_footer.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/auth_footer', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(9): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 22:32:40 --> Undefined variable $title
+in APPPATH\Views\layout\template_login.php on line 7.
+ 1 APPPATH\Views\layout\template_login.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template_login.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template_login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template_login', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\Auth.php(9): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-03 22:55:25 --> Call to a member function getStatusCode() on null
+in ROOTPATH\spark on line 100.
+
+CRITICAL - 2023-03-03 22:58:08 --> Call to a member function getStatusCode() on null
+in ROOTPATH\spark on line 100.
+
+CRITICAL - 2023-03-03 23:00:57 --> Call to a member function getStatusCode() on null
+in ROOTPATH\spark on line 100.
+

@@ -1,0 +1,44 @@
+CRITICAL - 2023-03-01 00:31:57 --> Undefined variable $p
+in APPPATH\Views\pages\home.php on line 72.
+ 1 APPPATH\Views\pages\home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p', 'APPPATH\\Views\\pages\\home.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Pages.php(16): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-01 00:32:53 --> Undefined variable $pemain
+in APPPATH\Views\pages\home.php on line 72.
+ 1 APPPATH\Views\pages\home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemain', 'APPPATH\\Views\\pages\\home.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Pages.php(16): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-01 01:21:48 --> Invalid file: layout/app.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/app.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/app', [], true)
+ 3 APPPATH\Controllers\Pages.php(16): view('layout/app', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-01 23:39:48 --> Invalid file: datapemain/formdatapemain.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('datapemain/formdatapemain.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/formdatapemain', [], true)
+ 3 APPPATH\Controllers\Pemain.php(23): view('datapemain/formdatapemain', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

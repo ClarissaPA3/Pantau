@@ -1,0 +1,1083 @@
+CRITICAL - 2023-02-24 03:05:10 --> Invalid file: pemain/detail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pemain/detail.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pemain/detail', [], true)
+ 3 APPPATH\Controllers\Pemain.php(33): view('pemain/detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('tata')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 03:07:04 --> Invalid file: pemain/detail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pemain/detail.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pemain/detail', [], true)
+ 3 APPPATH\Controllers\Pemain.php(33): view('pemain/detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('tata')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 03:07:35 --> Invalid file: Pemain/detail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pemain/detail.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Pemain/detail', [], true)
+ 3 APPPATH\Controllers\Pemain.php(33): view('Pemain/detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('tata')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 03:07:42 --> Invalid file: Pemain/detail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pemain/detail.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Pemain/detail', [], true)
+ 3 APPPATH\Controllers\Pemain.php(33): view('Pemain/detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('theo hernandez')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 03:09:04 --> Undefined array key "pemain"
+in APPPATH\Views\datapemain\detail.php on line 5.
+ 1 APPPATH\Views\datapemain\detail.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pemain"', 'APPPATH\\Views\\datapemain\\detail.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('theo hernandez')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 03:09:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 5.
+ 1 APPPATH\Views\datapemain\detail.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('theo.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 03:09:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 5.
+ 1 APPPATH\Views\datapemain\detail.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('...')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 03:10:15 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 5.
+ 1 APPPATH\Views\datapemain\detail.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('...')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 03:12:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 9.
+ 1 APPPATH\Views\datapemain\detail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('...')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 03:13:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('...')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 03:37:49 --> Undefined variable $komik
+in APPPATH\Views\datapemain\detail.php on line 12.
+ 1 APPPATH\Views\datapemain\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $komik', 'APPPATH\\Views\\datapemain\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('theo hernandez')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 03:39:23 --> Undefined array key "penulis"
+in APPPATH\Views\datapemain\detail.php on line 17.
+ 1 APPPATH\Views\datapemain\detail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "penulis"', 'APPPATH\\Views\\datapemain\\detail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('theo hernandez')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 03:41:51 --> Undefined variable $komik
+in APPPATH\Views\datapemain\detail.php on line 26.
+ 1 APPPATH\Views\datapemain\detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $komik', 'APPPATH\\Views\\datapemain\\detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('theo hernandez')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:01:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:01:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:02:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:03:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:03:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:03:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:05:16 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:05:44 --> Undefined variable $Pemain
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Pemain', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:05:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:10:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:11:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:11:43 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:12:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:12:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('tambah')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:12:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('tambah')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:12:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('tambah')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:41:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('tambah')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:42:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('tambah')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:43:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('tambah')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:43:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('tambah')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:44:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('tambah')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:45:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('tambah')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:45:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('tambah')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:46:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('tambah')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 05:46:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('tambah')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 06:22:59 --> Undefined variable $validation
+in APPPATH\Views\datapemain\tambah.php on line 13.
+ 1 APPPATH\Views\datapemain\tambah.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\datapemain\\tambah.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/tambah', [], true)
+ 5 APPPATH\Controllers\Pemain.php(43): view('datapemain/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 07:25:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\datapemain\detail.php on line 10.
+ 1 APPPATH\Views\datapemain\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\datapemain\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datapemain\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datapemain/detail', [], true)
+ 5 APPPATH\Controllers\Pemain.php(33): view('datapemain/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('save')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 11:39:48 --> Allowed fields must be specified for model: App\Models\PemainModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\PemainModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Pemain.php(55): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->save()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-24 11:43:23 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=5788 in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 170)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#7 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(21): CodeIgniter\BaseModel->first()
+#8 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(30): App\Models\PemainModel->getPemain('save')
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->detail('save')
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(30): App\Models\PemainModel->getPemain('save')
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->detail('save')
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(21): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(30): App\Models\PemainModel->getPemain('save')
+#7 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->detail('save')
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-02-24 11:43:23 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pemain`
+WHERE `slug` = :slug:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\PemainModel.php(21): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Pemain.php(30): App\Models\PemainModel->getPemain('save')
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->detail('save')
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 11:47:22 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 153.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-02-24 11:47:27 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#7 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-02-24 11:47:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pemain`', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-24 11:47:32 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#7 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-02-24 11:47:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pemain`', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-24 11:47:36 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#7 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-02-24 11:47:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pemain`', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-24 11:47:42 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=6908 in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 170)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#7 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-02-24 11:47:42 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pemain`', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-24 11:47:46 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#7 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-02-24 11:47:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pemain`', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-24 11:47:50 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=6908 in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 170)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#7 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-02-24 11:47:50 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pemain`', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-24 11:47:53 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=6908 in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 170)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#7 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-02-24 11:47:54 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pemain`', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-24 20:03:38 --> mysqli_sql_exception: Column 'nationaly' cannot be null in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(55): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->save()
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-02-24 20:03:38 --> Column 'nationaly' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pemain` (`namapemain`, `slug`, `nationaly`, `position`, `foot`, `height`, `number`, `age`, `sampul`) VALUES (\'dafqv\', \'dafqv\', NULL, \'adfqe\', \'dvad\', \'fsbwfs\', \'asvas\', \'saVA\', \'s A\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pemain` (`namapemain`, `slug`, `nationaly`, `position`, `foot`, `height`, `number`, `age`, `sampul`) VALUES (\'dafqv\', \'dafqv\', NULL, \'adfqe\', \'dvad\', \'fsbwfs\', \'asvas\', \'saVA\', \'s A\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pemain` (`namapemain`, `slug`, `nationaly`, `position`, `foot`, `height`, `number`, `age`, `sampul`) VALUES (\'dafqv\', \'dafqv\', NULL, \'adfqe\', \'dvad\', \'fsbwfs\', \'asvas\', \'saVA\', \'s A\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pemain` (`namapemain`, `slug`, `nationaly`, `position`, `foot`, `height`, `number`, `age`, `sampul`) VALUES (:namapemain:, :slug:, :nationaly:, :position:, :foot:, :height:, :number:, :age:, :sampul:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Pemain.php(55): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-24 20:04:57 --> mysqli_sql_exception: Column 'nationaly' cannot be null in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(55): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->save()
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-02-24 20:04:57 --> Column 'nationaly' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pemain` (`namapemain`, `slug`, `nationaly`, `position`, `foot`, `height`, `number`, `age`, `sampul`) VALUES (\'dafqv\', \'dafqv\', NULL, \'adfqe\', \'dvad\', \'fsbwfs\', \'asvas\', \'saVA\', \'s A\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pemain` (`namapemain`, `slug`, `nationaly`, `position`, `foot`, `height`, `number`, `age`, `sampul`) VALUES (\'dafqv\', \'dafqv\', NULL, \'adfqe\', \'dvad\', \'fsbwfs\', \'asvas\', \'saVA\', \'s A\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pemain` (`namapemain`, `slug`, `nationaly`, `position`, `foot`, `height`, `number`, `age`, `sampul`) VALUES (\'dafqv\', \'dafqv\', NULL, \'adfqe\', \'dvad\', \'fsbwfs\', \'asvas\', \'saVA\', \'s A\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pemain` (`namapemain`, `slug`, `nationaly`, `position`, `foot`, `height`, `number`, `age`, `sampul`) VALUES (:namapemain:, :slug:, :nationaly:, :position:, :foot:, :height:, :number:, :age:, :sampul:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Pemain.php(55): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-24 20:06:20 --> mysqli_sql_exception: Column 'nationaly' cannot be null in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(55): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->save()
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-02-24 20:06:20 --> Column 'nationaly' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pemain` (`namapemain`, `slug`, `nationaly`, `position`, `foot`, `height`, `number`, `age`, `sampul`) VALUES (\'dafqv\', \'dafqv\', NULL, \'adfqe\', \'dvad\', \'fsbwfs\', \'asvas\', \'saVA\', \'s A\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pemain` (`namapemain`, `slug`, `nationaly`, `position`, `foot`, `height`, `number`, `age`, `sampul`) VALUES (\'dafqv\', \'dafqv\', NULL, \'adfqe\', \'dvad\', \'fsbwfs\', \'asvas\', \'saVA\', \'s A\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pemain` (`namapemain`, `slug`, `nationaly`, `position`, `foot`, `height`, `number`, `age`, `sampul`) VALUES (\'dafqv\', \'dafqv\', NULL, \'adfqe\', \'dvad\', \'fsbwfs\', \'asvas\', \'saVA\', \'s A\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pemain` (`namapemain`, `slug`, `nationaly`, `position`, `foot`, `height`, `number`, `age`, `sampul`) VALUES (:namapemain:, :slug:, :nationaly:, :position:, :foot:, :height:, :number:, :age:, :sampul:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Pemain.php(55): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-24 23:24:52 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#10 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4aplikasi\app\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4aplikasi\app\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+#7 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(925): App\Controllers\Pemain->index()
+#8 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+#9 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4aplikasi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4aplikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-02-24 23:24:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pemain`', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\PemainModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Pemain.php(20): App\Models\PemainModel->getPemain()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Pemain->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemain))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

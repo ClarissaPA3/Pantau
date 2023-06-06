@@ -1,0 +1,178 @@
+CRITICAL - 2023-05-15 15:51:18 --> Call to undefined method App\Models\PltsModel::getPLts
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Plts.php(20): CodeIgniter\Model->__call('getPLts', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-15 15:51:32 --> Invalid file: "dataplts/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dataplts/home.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataplts/home', [], true)
+ 3 APPPATH\Controllers\Plts.php(23): view('dataplts/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-15 15:56:12 --> Undefined array key "id"
+in APPPATH\Views\dataplts\home.php on line 44.
+ 1 APPPATH\Views\dataplts\home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\dataplts\\home.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dataplts\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataplts/home', [], true)
+ 5 APPPATH\Controllers\Plts.php(23): view('dataplts/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-15 15:59:07 --> Undefined array key "slug"
+in APPPATH\Views\dataplts\home.php on line 48.
+ 1 APPPATH\Views\dataplts\home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'APPPATH\\Views\\dataplts\\home.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dataplts\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataplts/home', [], true)
+ 5 APPPATH\Controllers\Plts.php(23): view('dataplts/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-05-15 16:12:31 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\monitoring\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\monitoring\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\monitoring\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\monitoring\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\monitoring\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\monitoring\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\monitoring\app\Models\PltsModel.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\monitoring\app\Controllers\Plts.php(30): App\Models\PltsModel->getPLts('PLTS-KAMPUS')
+#8 C:\xampp\htdocs\monitoring\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Plts->detail('PLTS-KAMPUS')
+#9 C:\xampp\htdocs\monitoring\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+#10 C:\xampp\htdocs\monitoring\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\monitoring\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\monitoring\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-15 16:12:31 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `plts`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\PltsModel.php(21): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Plts.php(30): App\Models\PltsModel->getPLts('PLTS-KAMPUS')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->detail('PLTS-KAMPUS')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-15 16:57:00 --> Undefined variable $pemain
+in APPPATH\Views\dataplts\home.php on line 48.
+ 1 APPPATH\Views\dataplts\home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemain', 'APPPATH\\Views\\dataplts\\home.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dataplts\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataplts/home', [], true)
+ 5 APPPATH\Controllers\Plts.php(23): view('dataplts/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-15 16:57:30 --> Undefined variable $pemain
+in APPPATH\Views\dataplts\detail.php on line 20.
+ 1 APPPATH\Views\dataplts\detail.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemain', 'APPPATH\\Views\\dataplts\\detail.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dataplts\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataplts/detail', [], true)
+ 5 APPPATH\Controllers\Plts.php(39): view('dataplts/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-15 16:58:36 --> Undefined variable $pemain
+in APPPATH\Views\dataplts\detail.php on line 23.
+ 1 APPPATH\Views\dataplts\detail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemain', 'APPPATH\\Views\\dataplts\\detail.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dataplts\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataplts/detail', [], true)
+ 5 APPPATH\Controllers\Plts.php(39): view('dataplts/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-15 17:00:55 --> Cannot access offset of type string on string
+in APPPATH\Views\dataplts\detail.php on line 30.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataplts/detail', [], true)
+ 4 APPPATH\Controllers\Plts.php(39): view('dataplts/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-15 17:07:33 --> Undefined variable $i
+in APPPATH\Views\dataplts\detail.php on line 28.
+ 1 APPPATH\Views\dataplts\detail.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'APPPATH\\Views\\dataplts\\detail.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dataplts\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataplts/detail', [], true)
+ 5 APPPATH\Controllers\Plts.php(39): view('dataplts/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-15 17:21:34 --> Undefined variable $grafikbaterai
+in APPPATH\Views\dataplts\detail.php on line 37.
+ 1 APPPATH\Views\dataplts\detail.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $grafikbaterai', 'APPPATH\\Views\\dataplts\\detail.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dataplts\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataplts/detail', [], true)
+ 5 APPPATH\Controllers\Plts.php(39): view('dataplts/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-15 17:26:07 --> Undefined array key "arus"
+in APPPATH\Views\dataplts\detail.php on line 43.
+ 1 APPPATH\Views\dataplts\detail.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "arus"', 'APPPATH\\Views\\dataplts\\detail.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dataplts\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataplts/detail', [], true)
+ 5 APPPATH\Controllers\Plts.php(45): view('dataplts/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-15 17:28:32 --> Cannot access offset of type string on string
+in APPPATH\Views\dataplts\detail.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataplts/detail', [], true)
+ 4 APPPATH\Controllers\Plts.php(45): view('dataplts/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-15 17:29:04 --> Cannot access offset of type string on string
+in APPPATH\Views\dataplts\detail.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataplts/detail', [], true)
+ 4 APPPATH\Controllers\Plts.php(45): view('dataplts/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Plts->detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plts))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
